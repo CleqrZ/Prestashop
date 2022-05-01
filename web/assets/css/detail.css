@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.contenue{
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    z-index: 1;
+}
+.boxProduit{
+    width: 100%;
+    display: flex;
+}
+.imgProduit{
+    max-height: 480px;
+}
+.imageProduit{
+    height: 480px;
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.borderProduit{
+    height: 500px;
+    width: 400px;
+     border: solid 1px black;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+}
+.text{
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.text h1{
+    font-size: 6.8rem;
+    font-family: 'Lobster', cursive;
+}
+.text p {
+     font-size: 2.6rem;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.text input{
+   border: none;
+   outline: none;
+   padding: 5px;
+   border-radius: 5px;
+   margin: 0 5px !important;
+   box-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.text input:hover,
+.text input:focus
+{
+    background: purple;
+    color: #fff;
+}
+.text button{
+    background: black;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.text button:hover{
+  background: purple;  
+}
+.text form{
+    margin-left: 20px;
+}
+.text .stock{
+    color: red;
+    font-size: 2.0rem;
+}
+.text a{
+    text-decoration: none;
+    color: purple;
+}
+.text a:hover{
+    text-decoration: underline;
+}
+.modifproduit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modprod{
+    border: solid 1px purple;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.modprod p {
+    font-size: 2.6rem;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 10px;
+}
+.modprod h1{
+    font-size: 6.8rem;
+    font-family: 'Lobster', cursive;
+}
+.modprod h1 span{
+    color: purple;
+}
+.modprod input, .modprod select{
+   border: none;
+   outline: none;
+   padding: 5px;
+   border-radius: 5px;
+   margin: 0 5px !important;
+   box-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.btnvalider{
+    height: 30px;
+    width: 100px;
+    background: purple;
+    color: white;
+    transition: 0.5s;
+}
+.btnvalider:hover{
+    opacity: 0.6;
+}
+.suppri{
+    color: red;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.suppri:hover{
+    text-decoration: underline;
+}

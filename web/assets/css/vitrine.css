@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.contenue{
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    z-index: 1;
+}
+.imgProduit{
+    max-height: 280px;
+    transition: 0.6s;
+}
+.produit{
+    height: 280px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.listproduit{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+        
+}
+.descProduit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border: solid 1px whitesmoke;
+    height: 450px;
+    width: 300px;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+     box-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.Nom h1{
+    font-size: 4.2rem;
+    font-family: 'Lobster', cursive;
+}
+.Nom{
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+.texte{
+    height: 20%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.texte h3{
+    font-family: 'Teko', sans-serif;
+    font-size: 3.8rem;
+}
+.texte p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.8rem;
+}
+.btnpanier{
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: purple;
+    transition: 0.5s;
+}
+.btnpanier a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.produitbycat{
+    margin-bottom: 150px;
+    background-color: white;
+}
+.btnpanier:hover{
+    opacity: 0.7;
+}
+.produit:hover .imgProduit{
+    transform: scale(1.07);
+}
+.Nom a{
+    text-decoration: none;
+    color: purple;
+    font-size: 1.6rem;
+    transition: 0.4s;
+}
+.Nom a:hover{
+    text-decoration: underline;
+}
+.afficher{
+    display: block;
+}
+.cacher{
+    display: none;
+}
+.texte input{
+   border: none;
+   outline: none;
+   padding: 5px;
+   border-radius: 5px;
+   margin: 0 5px !important;
+   box-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.texte input:hover,
+.texte input:focus
+{
+    background: purple;
+    color: #fff;
+}
+.texte button{
+    background: black;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.texte button:hover{
+  background: purple;  
+}
+.btnaj{
+    background: purple;
+    color: white;
+}
+.btnaj:hover{
+    opacity: 0.7;
+}
+.texte .stock{
+    color: red;
+    font-size: 1.2rem;
+}
+.texte a{
+    text-decoration: none;
+    color: purple;
+}
+.texte a:hover{
+    text-decoration: underline;
+}
+.texte .suppri{
+    color: red;
+    font-size: 1.2rem;
+}
+.merci{
+    width: 100%;
+    text-align: center;
+}
+.merci p{
+     font-family: 'Teko', sans-serif;
+    font-size: 3.8rem;
+}
